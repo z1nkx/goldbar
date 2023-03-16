@@ -17,7 +17,7 @@ import { parseIneligibility } from "../utils/parseIneligibility";
 
 // Put Your Edition Drop Contract address from the dashboard here
 const myEditionDropContractAddress =
-  "0xDC8017E1E20BFF80a49B0B92F719f00170013B4F";
+  "0x104E5050cC962620b7a19563038472a75084F2F2";
 
 // Put your token ID here
 const tokenId = 0;
@@ -318,12 +318,7 @@ const Home: NextPage = () => {
         )}
       </div>
       {/* Powered by thirdweb */}{" "}
-      <img
-        src="/logo.png"
-        alt="thirdweb Logo"
-        width={135}
-        className={styles.buttonGapTop}
-      />
+     
     </div>
   );
 };
